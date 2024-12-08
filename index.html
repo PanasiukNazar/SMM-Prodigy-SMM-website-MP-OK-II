@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SMMProdigy</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block"
+        >
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+77027019944</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>smm_prodigy@gmail.com</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-clock me-2"></small>
+                        <small>Пн - Пт: 09:00 - 21:00</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h1 class="m-0">
+                    SMMProdigy
+                    <img
+                        src="img/logo.png"
+                        style="margin-top: -15px; margin-left: -8px"
+                        alt=""
+                    />
+                </h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div
+                    class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0"
+                >
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="service.html" class="nav-item nav-link"
+                        >Наши услуги</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Отзывы</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+            </div>
+            <a
+                href="contact.html"
+                class="btn btn-primary px-3 d-none d-lg-block"
+                >Связаться с нами</a
+            >
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Изображение"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-12 col-lg-6"
+                                        style="
+                                            padding: 40px;
+                                            background: #fff;
+                                            box-shadow: 0 0.125rem 0.25rem
+                                                rgba(0, 0, 0, 0.075) !important;
+                                        "
+                                    >
+                                        <h1
+                                            class="display-3 text-dark mb-4 animated slideInDown"
+                                        >
+                                            Укрепите присутствие вашего бренда в
+                                            социальных сетях
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-body mb-5 text-dark"
+                                            style="color: #000 !important"
+                                        >
+                                            Откройте весь потенциал вашего
+                                            бренда с помощью экспертов в области
+                                            маркетинга в социальных сетях. От
+                                            органического роста до платных
+                                            кампаний, мы специализируемся на
+                                            достижении результатов, которые
+                                            поднимут ваш бизнес и обеспечат
+                                            значительное вовлечение.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Изображение"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-12 col-lg-6"
+                                        style="
+                                            padding: 40px;
+                                            background: #fff;
+                                            box-shadow: 0 0.125rem 0.25rem
+                                                rgba(0, 0, 0, 0.075) !important;
+                                        "
+                                    >
+                                        <h1
+                                            class="display-3 text-dark mb-4 animated slideInDown"
+                                        >
+                                            Увеличьте охват с помощью целевого
+                                            СММ
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-body mb-5 text-dark"
+                                            style="color: #000 !important"
+                                        >
+                                            Максимизируйте охват и видимость
+                                            вашего бренда с помощью
+                                            индивидуальных стратегий маркетинга
+                                            в социальных сетях. Мы создаем
+                                            увлекательный контент и кампании,
+                                            ориентированные на вашу аудиторию,
+                                            чтобы ваше сообщение было услышано
+                                            на всех платформах.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden rounded pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/approach.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h1 class="display-6 mb-5">
+                                Наш подход к мастерству в СММ
+                            </h1>
+                            <p class="fs-5 text-primary mb-4">
+                                Развитие вашего бизнеса через онлайн-обучение и
+                                СММ
+                            </p>
+                            <p class="mb-4">
+                                В основе нашей стратегии лежит внимание к
+                                эффективным и индивидуальным решениям в области
+                                маркетинга и продвижения в социальных сетях. Мы
+                                совмещаем креативный визуальный контент с
+                                аналитическими данными, чтобы обеспечить не
+                                только рост вашего присутствия в социальных
+                                сетях, но и его развитие. Мы работаем с
+                                платформами такими как Instagram, Facebook,
+                                TikTok и LinkedIn, и разрабатываем кампании,
+                                направленные на увеличение видимости,
+                                вовлеченности и конверсий.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid overflow-hidden my-5 px-lg-0">
+            <div class="container facts px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 facts-text wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 px-4 ps-lg-0">
+                            <h1 class="text-white mb-4">
+                                Наши достижения в цифрах
+                            </h1>
+                            <p class="text-light mb-5">
+                                Оцените реальные результаты наших стратегий в
+                                области СММ. Мы используем подходы, основанные
+                                на данных, чтобы помочь брендам расти,
+                                взаимодействовать с аудиторией и добиваться
+                                реальных результатов на всех основных социальных
+                                платформах. Наша приверженность эффективному
+                                управлению социальными сетями неизменно приводит
+                                к впечатляющим результатам для наших клиентов.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 facts-counter wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 px-4 pe-lg-0">
+                            <div class="row g-5">
+                                <div class="col-sm-6">
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        2391
+                                    </h1>
+                                    <p class="fs-5 text-primary">
+                                        Довольных клиентов
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        731
+                                    </h1>
+                                    <p class="fs-5 text-primary">
+                                        Успешных кампаний
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        420
+                                    </h1>
+                                    <p class="fs-5 text-primary">
+                                        Стратегий в социальных сетях
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        120
+                                    </h1>
+                                    <p class="fs-5 text-primary">
+                                        Членов команды
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-6 mb-5">
+                            Несколько причин, почему нас выбирают!
+                        </h1>
+                        <p class="mb-4">
+                            Когда речь идет о продвижении в социальных сетях,
+                            наш подход выделяется своей креативностью и
+                            эффективностью. Мы специализируемся на создании
+                            уникальных стратегий, адаптированных к голосу и
+                            аудитории каждого бренда. Наша цель — вовлеченность,
+                            создание контента и видимость бренда, что
+                            гарантирует вашему присутствию в социальных сетях
+                            силу и устойчивость.
+                        </p>
+                        <div class="row g-3">
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <div class="bg-light rounded h-100 p-3">
+                                    <div
+                                        class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3"
+                                    >
+                                        <img
+                                            class="align-self-center mb-3"
+                                            src="img/icon/icon-06-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Экспертность в стратегиях СММ
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <div class="bg-light rounded h-100 p-3">
+                                    <div
+                                        class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3"
+                                    >
+                                        <img
+                                            class="align-self-center mb-3"
+                                            src="img/icon/icon-03-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Проверенный успех на различных
+                                            платформах
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="bg-light rounded h-100 p-3">
+                                    <div
+                                        class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3"
+                                    >
+                                        <img
+                                            class="align-self-center mb-3"
+                                            src="img/icon/icon-04-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Креативный контент и кампании
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <div class="bg-light rounded h-100 p-3">
+                                    <div
+                                        class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3"
+                                    >
+                                        <img
+                                            class="align-self-center mb-3"
+                                            src="img/icon/icon-07-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Данные и аналитика для роста
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div
+                            class="position-relative rounded overflow-hidden h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/feature.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Appointment Start -->
+        <div
+            class="container-fluid appointment my-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 text-white mb-5">
+                            Развиваем ваш бренд через социальные сети
+                        </h1>
+                        <p class="text-white mb-5">
+                            Социальные сети стали основой видимости брендов в
+                            современном мире. Наш подход помогает компаниям
+                            наладить контакт с аудиторией, усилить голос бренда
+                            и повысить вовлеченность. Мы создаем сильное
+                            присутствие в социальных сетях, которое отражает
+                            уникальную идентичность вашего бренда. Наши
+                            стратегии направлены на создание значимых
+                            взаимодействий, увеличение трафика и, в конечном
+                            счете, на достижение долгосрочного успеха на таких
+                            платформах, как Facebook, Instagram, Twitter и
+                            LinkedIn.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto" style="max-width: 500px">
+                    <h1 class="display-6 mb-5">
+                        Познакомьтесь с нашей профессиональной командой
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-1.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Дмитрий Давидов</h5>
+                                <span>Старший стратег по СММ</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Дмитрий специализируется на создании
+                                    эффективных стратегий СММ, которые
+                                    соответствуют целям бренда. С более чем
+                                    15-летним опытом работы он помогает брендам
+                                    увеличивать свое присутствие в социальных
+                                    сетях и вовлеченность через целевые кампании
+                                    и креативный контент.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-2.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Анастасия Ємельянова</h5>
+                                <span>Планировщик СММ</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Анастасия — эксперт в создании
+                                    индивидуальных планов СММ, которые помогают
+                                    компаниям наладить связь с их аудиторией.
+                                    Она следит за тенденциями и помогает брендам
+                                    сохранять свою уникальность в мире
+                                    социальных сетей.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-3.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Иван Дюжиков</h5>
+                                <span>Менеджер контента</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Иван отвечает за создание и управление
+                                    увлекательным контентом, который резонирует
+                                    с целевой аудиторией. Его экспертиза
+                                    заключается в создании историй и сообщений,
+                                    которые способствуют взаимодействию и
+                                    формируют лояльность к бренду.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-4.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Мария Гриднєва</h5>
+                                <span>Аналитик СММ</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Мария отслеживает тренды в социальных сетях,
+                                    анализирует данные и помогает компаниям
+                                    адаптировать свои стратегии для
+                                    максимального вовлечения. Ее аналитика
+                                    играет ключевую роль в корректировке
+                                    кампаний для достижения лучших результатов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto" style="max-width: 500px">
+                    <h1 class="display-6">Наши последние блог-посты</h1>
+                    <p class="mb-5">
+                        Оставайтесь в курсе последних новостей и трендов в
+                        области онлайн-обучения и СММ. Мы охватываем широкий
+                        спектр тем, от актуальных тенденций в создании контента
+                        до стратегий продвижения, которые помогают бизнесам
+                        укрепить свое присутствие в сети. Получите полезные
+                        инсайты и советы для улучшения ваших социальных медиа
+                        кампаний и построения более крепких связей с вашей
+                        аудиторией.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item rounded h-100 p-5">
+                            <img
+                                src="img/blog1.jpg"
+                                alt=""
+                                style="width: 100%; margin-bottom: 20px"
+                            />
+                            <div class="d-flex align-items-center mb-4">
+                                <h4 class="mb-0">
+                                    Овладение искусством вовлечения через
+                                    социальные сети
+                                </h4>
+                            </div>
+                            <p class="mb-4">
+                                Узнайте, как создавать вовлекающий контент и
+                                строить значимые связи с вашей аудиторией. Мы
+                                рассмотрим лучшие практики для активизации
+                                взаимодействия и формирования сообщества вокруг
+                                вашего бренда в социальных сетях.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item rounded h-100 p-5">
+                            <img
+                                src="img/blog2.jpg"
+                                alt=""
+                                style="width: 100%; margin-bottom: 20px"
+                            />
+                            <div class="d-flex align-items-center mb-4">
+                                <h4 class="mb-0">
+                                    Как создать успешную стратегию в социальных
+                                    сетях
+                                </h4>
+                            </div>
+                            <p class="mb-4">
+                                Узнайте, как разработать стратегию в социальных
+                                сетях, которая будет соответствовать целям
+                                вашего бизнеса. Этот блог описывает ключевые
+                                элементы эффективной стратегии, включая
+                                планирование контента, таргетинг аудитории и
+                                измерение эффективности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h1 class="text-white mb-4">SMMProdigy</h1>
+                        <p>
+                            Спасибо, что посетили наш сайт. Мы предоставляем
+                            самые актуальные идеи и стратегии в области
+                            СММ-маркетинга. От создания контента до тактик
+                            вовлечения, мы предлагаем практические советы,
+                            которые помогут вам продвигать ваш бренд в
+                            интернете.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Адрес</h5>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>Шумный
+                            переулок 2 Бизнес центр QSTAFF 401 кабинет, Алматы
+                            050000, Казахстан
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+77027019944</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >smm_prodigy@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Быстрые ссылки</h5>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html">Контакты</a>
+                        <a class="btn btn-link" href="service.html"
+                            >Наши услуги</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Конфиденциальность</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Новости</h5>
+                        <p>
+                            Оставайтесь в курсе событий в мире СММ-маркетинга с
+                            нашим информационным бюллетенем. Получайте
+                            актуальные обновления, экспертные рекомендации и
+                            ценные советы прямо на ваш электронный адрес.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Ваш email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Подписаться
+                            </button>
+                        </div>
+                        <div
+                            id="result"
+                            style="color: red; font-size: 12px"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для предоставления вам
+                    более удобного и актуального опыта работы с сайтом. Узнайте
+                    больше о том, как мы используем файлы cookie для улучшения
+                    ваших знаний в онлайн-обучении, маркетинге и создании планов
+                    продвижения.
+                    <a href="#">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
